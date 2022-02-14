@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="" />
+    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="requests练习">
+      <change afterPath="$PROJECT_DIR$/06_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_python外部数据源文件处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +32,89 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in unittest_demo.py">
+    <configuration name="Python tests for unittest_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unittest_demo.demo_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo.demo_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unittest_demo.demo_test.test_num" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unittest_demo.demo_test.test_num_02" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num_02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in unittest_demo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in unittest_demo.py" />
+        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test" />
+        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num_02" />
+        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num" />
+        <item itemvalue="Python tests.Python tests for unittest_demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,6 +125,45 @@
       <option name="presentableId" value="Default" />
       <updated>1644311858159</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1644312963931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644312963932</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1644313054149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644313054149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="requests练习">
+      <created>1644479502935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644479502935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="requests练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="requests练习" />
   </component>
 </project>
