@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="测试提交">
+    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="删除文件测试">
+      <change afterPath="$PROJECT_DIR$/test_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_demo_two.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_参数化用例.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python外部数据源文件处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_数据驱动.py" beforeDir="false" afterPath="$PROJECT_DIR$/参数化用例.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_python外部数据源文件处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据驱动.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_测试报告美化.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试报告美化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_unittest_assert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_unittest_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_unittest_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_unittest_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_unittest_assert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +38,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager">
-    <configuration name="Python tests for unittest_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_unittest">
+    <configuration name="test_unittest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_unittest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for unittest_demo_two" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +74,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unittest_demo.demo_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for unittest_demo_two.demo_two.test_four" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +89,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo.demo_test&quot;" />
+      <option name="_new_target" value="&quot;unittest_demo_two.demo_two.test_four&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for unittest_demo.demo_test.test_num" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_unittest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,47 +104,36 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for unittest_demo.demo_test.test_num_02" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Pytest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num_02&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in 06_unittest_demo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Pytest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/06_unittest_demo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_unittest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in unittest_demo_two.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest_demo_two.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_unittest" />
+      <item itemvalue="Python tests.Python tests in unittest_demo_two.py" />
+      <item itemvalue="Python tests.Python tests for unittest_demo_two.demo_two.test_four" />
+      <item itemvalue="Python tests.Python tests in test_unittest.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in 06_unittest_demo.py" />
-        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test" />
-        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num_02" />
-        <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num" />
-        <item itemvalue="Python tests.Python tests for unittest_demo" />
+        <item itemvalue="Python tests.Python tests in test_unittest.py" />
+        <item itemvalue="Python tests.Python tests for unittest_demo_two.demo_two.test_four" />
+        <item itemvalue="Python tests.Python tests in unittest_demo_two.py" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +146,11 @@
       <option name="presentableId" value="Default" />
       <updated>1644311858159</updated>
       <workItem from="1644897180838" duration="245000" />
-      <workItem from="1644897672914" duration="363000" />
+      <workItem from="1644897672914" duration="4371000" />
+      <workItem from="1644909515405" duration="305000" />
+      <workItem from="1644910225296" duration="264000" />
+      <workItem from="1644910515035" duration="364000" />
+      <workItem from="1644911251892" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1644312963931</created>
@@ -167,7 +180,42 @@
       <option name="project" value="LOCAL" />
       <updated>1644897339206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试提交">
+      <created>1644904375504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644904375504</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试提交">
+      <created>1644905748160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644905748160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试提交">
+      <created>1644905864680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644905864680</updated>
+    </task>
+    <task id="LOCAL-00008" summary="push冲突测">
+      <created>1644905897217</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644905897217</updated>
+    </task>
+    <task id="LOCAL-00009" summary="删除文件测试">
+      <created>1644906060376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644906060377</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +226,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -188,6 +248,13 @@
     <MESSAGE value="test" />
     <MESSAGE value="requests练习" />
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="push冲突测" />
+    <MESSAGE value="删除文件测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文件测试" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pytest$.coverage" NAME=" Coverage Results" MODIFIED="1644916529556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pytest$Unittests_in_unittest_demo_py.coverage" NAME="Unittests in unittest_demo_two.py Coverage Results" MODIFIED="1644912839114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Pytest$unittest_demo_two.coverage" NAME="test_unittest Coverage Results" MODIFIED="1644916569651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

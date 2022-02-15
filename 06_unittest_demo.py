@@ -88,7 +88,7 @@ class demo_test(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
 
 # 被测试代码块
 # def demo_method(a, b, x):
