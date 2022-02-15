@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="requests练习">
-      <change afterPath="$PROJECT_DIR$/06_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_python外部数据源文件处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest_demo.py" afterDir="false" />
+    <list default="true" id="8dea4fee-728f-49cd-85ba-ae2cee2f43ee" name="Changes" comment="测试提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_参数化用例.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python外部数据源文件处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_数据驱动.py" beforeDir="false" afterPath="$PROJECT_DIR$/参数化用例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_python外部数据源文件处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据驱动.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_测试报告美化.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试报告美化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_unittest_assert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_unittest_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="24ozj5KNgMaoVIAVFqNgs1BtvIs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,10 +38,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in unittest_demo.py">
+  <component name="RunManager">
     <configuration name="Python tests for unittest_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unittest_demo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -59,6 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unittest_demo.demo_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -73,6 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -87,12 +97,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unittest_demo.demo_test.test_num_02&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in unittest_demo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 06_unittest_demo.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,14 +112,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest_demo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/06_unittest_demo.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in unittest_demo.py" />
+        <item itemvalue="Python tests.Python tests in 06_unittest_demo.py" />
         <item itemvalue="Python tests.Python tests for unittest_demo.demo_test" />
         <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num_02" />
         <item itemvalue="Python tests.Python tests for unittest_demo.demo_test.test_num" />
@@ -124,6 +136,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644311858159</updated>
+      <workItem from="1644897180838" duration="245000" />
+      <workItem from="1644897672914" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1644312963931</created>
@@ -146,8 +160,18 @@
       <option name="project" value="LOCAL" />
       <updated>1644479502935</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试提交">
+      <created>1644897339206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644897339206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -159,11 +183,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="requests练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="requests练习" />
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
   </component>
 </project>
