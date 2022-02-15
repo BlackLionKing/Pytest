@@ -53,10 +53,10 @@ if __name__ == '__main__':
     # unittest.TextTestRunner().run(suite)
 
     # 加载测试类
-    # demoTwo = unittest.TestLoader().loadTestsFromTestCase(demo_two)
+    demoTwo = unittest.TestLoader().loadTestsFromTestCase(demo_two)
     # 创建测试套件 将测试类加到套件中
-    # suite = unittest.TestSuite([demoTwo, ])
+    suite = unittest.TestSuite([demoTwo, ])
     # 执行
-    # unittest.TextTestRunner().run(suite)
+    unittest.TextTestRunner().run(suite)
 
     pass
