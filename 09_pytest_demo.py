@@ -48,7 +48,7 @@ class Test_demo(object):
     def test_num(self):
         assert 2 == 3
 
-    # 使用命令行执行本文件 pytest pytest_demo.py
+    # 使用命令行执行本文件 pytest 09_pytest_demo.py
     def test_func(self):
         print('test_func')
         assert 2 == 2
