@@ -13,7 +13,7 @@
         pytest-sugar            执行过程美化
         pytest-rerunfailures    失败重试
         pytest-xdist            多任务
-        pytest-assume           断言
+        pytest-assume           断言失败后 仍继续执行后面的case
         pytest-html
 
     测试用例的识别与运行
