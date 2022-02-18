@@ -12,7 +12,17 @@ import pytest
 """
 
 
-# 需要被重复使用的方法 加@pytest.fixture()
+# 需要被重复使用的方法 加@pytest.fixture() 联想文件14
 @pytest.fixture()
 def login():
     print('login方法')
+
+
+# 配置mark自定义标签 联想文件19
+def pytest_configure(config):
+    # 标签名集合
+    marker_list = ["login", "logout"]
+    for markers in marker_list:
+        config.addinivalue_line(
+            "markers", markers
+        )

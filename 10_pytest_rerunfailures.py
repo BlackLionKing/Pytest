@@ -12,6 +12,9 @@
         pytest --reruns 执行次数 --reruns-delay 间隔秒数 文件名称(pytest -v --reruns 3 --reruns-delay 2 10_pytest_rerunfailures.py)
             执行n次 间隔n秒
 
+    装饰器语句
+        @pytest.mark.flaky(reruns=次数 , reruns_delay=秒数)
+
 """
 
 import time
