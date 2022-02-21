@@ -1,5 +1,8 @@
 """
-    @pytest.mark.parametrize 允许在测试函数或类中和fixtures定义多组参数
+    @pytest.mark.parametrize(argnames, argvalues) 允许在测试函数或类中和fixtures定义多组参数
+    argnames: 要参数化的变量 类型：string, list, tuple
+    argvalues: 要参数化的值  类型：list list(tuple)
+
 
 
 """
@@ -19,8 +22,7 @@ def test_two():
 
 """
     @pytest.mark.parametrize(参数名, 对应的参数值)
-        test_input参数 对应 "3+5" "2+4"
-        expected参数 对应 8 6 50
+        
         
     如果只有一个参数 里面则是值的列表如 
         @pytest.mark.parametrize("username", ["yy", "yy2", "yy3"])
@@ -36,6 +38,8 @@ def test_two():
 
 
 # 利用参数化之后的代码
+# test_input参数  对应 "3+5" "2+4"
+# expected参数    对应 8 6 50
 # @pytest.mark.parametrize("test_input, expected", [("3+5", 8), ("2+4", 6), ("6*9", 50)])
 # def test_three(test_input, expected):
 #     # eval()函数 把字符串内的数据转换为表达式
@@ -87,7 +91,7 @@ def test_one(list1, list2):
 """
 @pytest.mark.parametrize("dic", ({'num': 1}, {20: 20}))
 def test_one(dic):
-    # 两个参数 执行两次
+    # 两个参数 执行两次 {'num': 1}  {20: 20}
     print(dic)
 """
 
@@ -100,7 +104,7 @@ def test_one(dic):
     pytest.mark.skipif()    条件成立则跳过case
 """
 
-
+"""
 @pytest.mark.parametrize("test_input, expected", [("3 + 3", 5), ("2 * 3", 6),
                                                   # 预计失败的测试数据 在测试结果中显示xpassed
                                                   pytest.param("6 * 9", 54, marks=pytest.mark.xfail),
@@ -111,3 +115,4 @@ def test_one(dic):
                                                   ])
 def test_one(test_input, expected):
     assert eval(test_input) == expected
+"""
