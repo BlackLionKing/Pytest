@@ -1,6 +1,18 @@
--
-  - value
-  - value2
--
-  - value3
-  - value4
+# 列表
+#-
+  # 列表嵌套
+#  - value
+#  - value2
+#-
+#  - value3
+#  - value4
+  # 字典嵌套
+#  - a: 1
+
+# 纯字典
+#a: 1
+
+# 字典嵌套列表
+b:
+ - 1
+ - 2
