@@ -8,7 +8,7 @@
         brew install allure
 
     python安装依赖包
-        pip install allure-pytest
+        pip3 install allure-pytest
 
     官方文档
         https://docs.qameta.io/allure/#_flaky_tests
@@ -20,7 +20,7 @@
 
         从结果生成报告
             allure generate ./allure(JSON目录名) -o ./report(html报告目录)/ --clean          生成报告(将json数据与html报告关联)
-            allure open -allure 127.0.0.1 -p 8883 ./report(html目录名)/                     打开报告
+            allure open -h 127.0.0.1 -p 8883 ./report(html目录名)/                          打开报告
 
 
 
