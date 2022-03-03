@@ -20,7 +20,7 @@ import pytest
 # 整个模块 只执行一次open方法
 @pytest.fixture(scope="module")
 def open():
-    # 调用test_search函数前 先执行下面打印语句
+    # 调用test_search_two函数前 先执行下面打印语句
     print('打开浏览器')
 
     # 打开浏览器输出 执行完后 会将OPEN函数挂起
@@ -31,7 +31,7 @@ def open():
     print('关闭浏览器')
 
 
-def test_search(open):
+def test_search():
     print('test_search')
 
 
