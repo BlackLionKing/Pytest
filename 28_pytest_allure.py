@@ -23,6 +23,10 @@
             allure open -h 127.0.0.1 -p 8883 ./report(html目录名)/                          打开报告
 
 
+    本地finder打开报告 不能直接双击index.html chrome无法直接加载
+    需使用命令 allure open 报告文件夹名称/ 才可打开报告
+
+
 
 """
 
