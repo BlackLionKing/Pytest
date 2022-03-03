@@ -9,6 +9,9 @@
             scope=module 表示当前模块可用 默认为Function函数可用
             作用域为模块时 在整个模块只调用一次
 
+        scope参数值优先级
+            session(全局) > module(模块) > function(方法)
+            autouse=true(这个参数为true时 级别大于同等级)
 
 
 """
