@@ -1,4 +1,7 @@
 import requests
+import pystache
+
+
 """
     哪些地方用到post请求
         登陆注册
@@ -12,13 +15,23 @@ import requests
 
 """
 # 指定url
-url = 'https://fanyi.baidu.com/sug'
+url = 'https://fanyi.baidu.com/langdetect'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'}
-data = {'kw': 'Description'}
+data = {'query': '托尔斯泰'}
+print(type(data))
 # 发送data
-response = requests.post(url, data=data, headers=headers)
+# response = requests.post(url, data=data, headers=headers, verify=False)
+
+# 将mustache内 value变量 替换成真实数据
+test_json = {'value': '托尔斯泰'}
+r = pystache.Renderer()
+# 加载模版 并进行数据替换
+content = r.render_name('test', test_json)
+# 将str转换为dict
+dict_content = eval(content)
+print(type(dict_content))
 
 # 发送json
-# response = requests.post(url, json=data, headers=headers)
-print(response.content.decode())
+response = requests.post(url, json=dict_content, headers=headers, verify=False)
+print(response.json())
 
