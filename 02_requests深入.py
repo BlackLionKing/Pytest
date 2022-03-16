@@ -25,7 +25,7 @@ print(type(data))
 # 将mustache内 value变量 替换成真实数据
 test_json = {'value': '托尔斯泰'}
 r = pystache.Renderer()
-# 加载模版 并进行数据替换
+# 加载模版test 并进行数据替换
 content = r.render_name('test', test_json)
 # 将str转换为dict
 dict_content = eval(content)
