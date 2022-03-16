@@ -12,9 +12,13 @@ import requests
 
 """
 # 指定url
-url = 'https://fanyi.baidu.com/langdetect'
+url = 'https://fanyi.baidu.com/sug'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'}
-data = {'query': 'Description'}
+data = {'kw': 'Description'}
+# 发送data
 response = requests.post(url, data=data, headers=headers)
+
+# 发送json
+# response = requests.post(url, json=data, headers=headers)
 print(response.content.decode())
 
