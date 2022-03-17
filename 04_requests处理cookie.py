@@ -19,6 +19,7 @@
 """
 
 import requests
+from requests import utils
 
 # 模拟登陆 访问登陆接口
 url = 'http://172.16.2.19:8096/api/user/login'
@@ -28,11 +29,14 @@ headers = {'Cookie': 'uid=20; SECKEY_ABVK=3PInt4rdcBsmEO/Y9vJMibwEvEiI574NlBrGAc
 data = {'username': 'liujian', 'password': 123456, 'code': 123344, 'timestamp': 1644473282, 'sign': '4efb9a7412'}
 # 发送post请求
 response = requests.post(url, headers=headers, data=data)
-
 # 使用requests.session处理cookie
 # session = requests.session()
 # headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'}
 # 发送请求
 # response = session.post(url, headers=headers, data=data)
 
+# response.cookies是CookieJar类型
+# 使用requests.utils.dict_from_cookiejar，能够实现把cookiejar对象转化为字典
+cookies = requests.utils.dict_from_cookiejar(response.cookies)
+print(cookies)
 print(response.content.decode())
