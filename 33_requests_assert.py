@@ -26,9 +26,9 @@ class Test_demo(object):
         self.dict_content = eval(content)
         # 发送json
         self.response = requests.post(self.url, data=self.dict_content, headers=self.headers, verify=False)
-        print(self.response)
 
     def test_assert(self):
+        print(self.response.json()['data'][0]['v'])
         # 进行断言 返回内容中是否包含 "胡子"
         """
             断言条件
@@ -39,17 +39,19 @@ class Test_demo(object):
                 isinstance(x, dict) x是否是dict类型
 
         """
-        assert "胡子" in self.response.json()['data'][1]['v']
+        assert "胡子" in self.response.json()['data'][0]['v']
 
     def test_assert_two(self):
+        print(jsonpath(self.response.json(), '$..v')[0])
         # jsonpath提取数据后 进行断言
-        assert "胡子" in jsonpath(self.response.json(), '$..v')[1]
+        assert "胡子" in jsonpath(self.response.json(), '$..v')[0]
 
     def test_assert_three(self):
+        print(jsonpath(self.response.json(), '$..v')[0])
         # assert_than断言
         # 是否包含胡子字符串
-        assert_that(jsonpath(self.response.json(), '$..v')[1], contains_string("胡子"))
+        assert_that(jsonpath(self.response.json(), '$..v')[0], contains_string("胡子"))
 
 
 if __name__ == '__main__':
-    pytest.main('[-vs]')
+    pytest.main(['-v', '-s'])
