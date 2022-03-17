@@ -40,3 +40,9 @@ response = requests.post(url, headers=headers, data=data)
 cookies = requests.utils.dict_from_cookiejar(response.cookies)
 print(cookies)
 print(response.content.decode())
+
+"""
+    解决RequestsDependencyWarning警告
+        升级requests模块
+
+"""
